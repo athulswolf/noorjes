@@ -3,43 +3,35 @@ import { styles } from '../style'
 
 const Footer = () => {
     return (
-        <div className='bg-[#F3F5F6] flex items-center flex-col'>
-            <div className='w-full flex flex-col gap-y-8 md:flex-row py-6 md:py-16 px-6 max-w-7xl'>
+        <div className='bg-[#151515] flex items-center flex-col '>
+            <div className='w-full flex flex-col gap-y-8 md:flex-row py-6 md:py-16 px-6 max-w-7xl border-b-[1px] border-white'>
                 <div className='flex flex-1'>
-                    <div className='flex flex-col md:mx-auto text-left gap-y-5'>
-                        <div className='flex flex-row'>
-                            {/* <img src='./logo1.png' alt='logo' className='h-12'></img> */}
-                        </div>
-                        <p className={`${styles.heroSubText}`}>Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous payment system.</p>
-
+                    <div className='flex flex-col md:mx-auto gap-y-3 '>
+                        <p className="text-white text-2xl font-normal font-playfair ">Quick links</p>
+                        <p className="text-white text-base font-normal font-raleway">Home</p>
+                        <p className="text-white text-base font-normal font-raleway">About</p>
+                        <p className="text-white text-base font-normal font-raleway">FAQ</p>
+                        <p className="text-white text-base font-normal font-raleway">Testimonials</p>
+                        <p className="text-white text-base font-normal font-raleway">Contact Us</p>
                     </div>
                 </div>
                 <div className='flex flex-1'>
                     <div className='flex flex-col md:mx-auto gap-y-3 '>
-                        <p className={`${styles.heroSubHeadText}`}>Social Media</p>
-                        <p className={`${styles.heroSubText}`}>Instagram</p>
-                        <p className={`${styles.heroSubText}`}>Facebook</p>
-                        <p className={`${styles.heroSubText}`}>LinkedIn</p>
-                        <p className={`${styles.heroSubText}`}>WhatsApp</p>
+                        <p className="text-white text-2xl font-normal font-playfair ">Contact Us</p>
+                        <p className="text-white text-base font-normal font-raleway">+1 800 100 900</p>
+                        <p className="text-white text-base font-normal font-raleway">+1 800 100 900</p>
+                        <p className="text-white text-base font-normal font-raleway">+1 800 100 900</p>
                     </div>
                 </div>
                 <div className='flex flex-1'>
-                    <ul className='flex flex-col md:mx-auto gap-y-3 w-full'>
-                        <p className={`${styles.heroSubHeadText}`}>Get in Touch</p>
-                        <p className={`${styles.heroSubText}`}>Question or feedback? We’d love to hear from you.</p>
-                        <input
-                            type='text'
-                            id='email'
-                            name='email'
-                            placeholder='Your Email Address'
-                            className='border border-[#D3D3D3] rounded-md px-4 py-3 bg-[#F3F5F6] w-full'
-                            autoComplete='email'
-                        />
-                    </ul>
+                    <div className='flex flex-col md:mx-auto gap-y-3 '>
+                        <p className="text-white text-2xl font-normal font-playfair ">Media Information</p>
+                    </div>
                 </div>
             </div>
-            <div className='bg-red w-full flex justify-center py-2 md:py-4'>
-                <p className={`${styles.heroSubText2}`}>© 2023 Petbey. All rights reserved.</p>
+
+            <div className='w-full flex justify-center py-2 md:py-4'>
+                <p className="text-white text-xs md:text-base font-normal font-raleway">© 2023 by Imagine  | All Right Reserved | Powered by procube.cx</p>
             </div>
         </div>
     )

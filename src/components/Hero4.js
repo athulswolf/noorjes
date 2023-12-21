@@ -26,8 +26,8 @@ const card = (title, description, icon,check,key) => {
   return (
     <div className={`flex h- flex-col max-w-xl text-left ${check && 'md:text-right md:items-end'} gap-2`} key={key}>
       {/* <img src={icon} alt="icon" className='h-12 w-12' /> */}
-      <p className={`${styles.heroSubHeadText}`}>{title}</p>
-      <p className={`${styles.heroSubText}`}>{description}</p>
+      <p className={`${styles.lightHeading}`}>{title}</p>
+      <p className={`${styles.subHeading}`}>{description}</p>
     </div>
   )
 }
@@ -36,8 +36,8 @@ const Hero4 = () => {
   return (
     <div className='py-6 px-6 md:py-16 md:px-36'>
       <div className='flex flex-col w-full h-full items-center gap-6 md:gap-16'>
-        <div className='flex flex-col md:max-w-xl text-center gap-2 md:gap-4'>
-          <p className={`${styles.heroHeadText}`}>A Perfume that makes complete</p>
+        <div className='flex flex-col md:max-w-5xl text-center gap-2 md:gap-4'>
+        <p className={`${styles.heroHeadText}`}>A Perfume That Makes <span className='text-[#3AB7B3]'>Complete</span></p>
         </div>
         <div className='grid grid-cols-6 md:grid-cols-8 gap-4 md:gap-8'>
   <div className='flex flex-col md:my-auto  justify-between col-span-3 gap-6'>

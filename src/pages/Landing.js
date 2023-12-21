@@ -13,7 +13,7 @@ import { Navbar } from '../components/Navbar'
 
 const Landing = () => {
   return (
-    <div className='text-red-500'>
+    <div>
       <Navbar/>
       <Hero1/>
       <Hero2/>
