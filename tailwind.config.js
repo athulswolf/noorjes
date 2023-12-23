@@ -9,6 +9,10 @@ module.exports = {
         'raleway': ['Raleway', 'sans-serif'],
         'playfair': ['Playfair Display', 'serif'],
       },
+      backgroundImage: {
+        'image-l': "url('/src/assets/background-m.png')",
+        'image-m': "url('/src/assets/background-s.png')",
+      },
     },
   },
   plugins: [],

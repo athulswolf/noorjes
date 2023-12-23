@@ -10,16 +10,16 @@ import location from '../assets/Icon-6.png'
 
 const Footer = () => {
     return (
-        <div className='bg-[#151515] flex items-center flex-col '>
+        <div id='contact' className='bg-[#151515] flex items-center flex-col '>
             <div className='w-full flex flex-col gap-y-8 md:flex-row py-6 md:py-16 px-6 max-w-7xl border-b-[1px] border-white'>
                 <div className='md:flex flex-1 hidden'>
                     <div className='flex flex-col md:mx-auto gap-y-3 '>
                         <p className="text-white text-2xl font-normal font-playfair ">Quick links</p>
-                        <p className="text-white text-base font-normal font-raleway">Home</p>
-                        <p className="text-white text-base font-normal font-raleway">About</p>
-                        <p className="text-white text-base font-normal font-raleway">FAQ</p>
-                        <p className="text-white text-base font-normal font-raleway">Testimonials</p>
-                        <p className="text-white text-base font-normal font-raleway">Contact Us</p>
+                        <a href='#' className="text-white text-base font-normal font-raleway">Home</a>
+                        <a href='#about' className="text-white text-base font-normal font-raleway">About</a>
+                        <a href='#faq' className="text-white text-base font-normal font-raleway">FAQ</a>
+                        <a href='#testimonials' className="text-white text-base font-normal font-raleway">Testimonials</a>
+                        <a href='#contact' className="text-white text-base font-normal font-raleway">Contact Us</a>
                     </div>
                 </div>
                 <div className='flex flex-1'>

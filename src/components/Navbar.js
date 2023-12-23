@@ -6,13 +6,33 @@ export const Navbar = () => {
 
     React.useEffect(() => {
         const links = document.querySelectorAll('.nav-link');
-
+    
+        const handleLinkClick = (event) => {
+            links.forEach(link => {
+                if (link === event.target) {
+                    link.classList.add('text-[#3AB7B3]');
+                } else {
+                    link.classList.remove('text-[#3AB7B3]');
+                }
+            });
+        };
+    
         links.forEach(link => {
-            if (link.getAttribute('href') === window.location.pathname) {
+            if (link.getAttribute('href') === window.location.hash) {
                 link.classList.add('text-[#3AB7B3]');
             }
+            link.addEventListener('click', handleLinkClick);
         });
-    }, []);
+    
+        return () => {
+            links.forEach(link => {
+                link.removeEventListener('click', handleLinkClick);
+            });
+        };
+    }, [window.location.hash]);
+    
+    
+    
 
 
 
@@ -25,10 +45,10 @@ export const Navbar = () => {
                     </a>
                 </div>
                 <div className={`hidden text-black font-normal text-lg md:flex gap-16 ${toggleMenu ? 'hidden' : 'block'}`}>
-                    <a href="/" className="nav-link">About</a>
-                    <a href="/features" className="nav-link">FAQ</a>
-                    <a href="/testimonial" className="nav-link">Testimonials</a>
-                    <a href="/contact" className="nav-link">Contact Us</a>
+                    <a href="#" className="nav-link">About</a>
+                    <a href="#faq" className="nav-link">FAQ</a>
+                    <a href="#testimonial" className="nav-link">Testimonials</a>
+                    <a href="#contact" className="nav-link">Contact Us</a>
                 </div>
 
                 <div className="md:hidden flex items-center">
@@ -54,10 +74,10 @@ export const Navbar = () => {
                         </svg>
                     </button>
                     </div>
-                    <a href="/" className="nav-link">About</a>
-                    <a href="/features" className="nav-link">FAQ</a>
-                    <a href="/testimonial" className="nav-link">Testimonials</a>
-                    <a href="/contact" className="nav-link">Contact Us</a>
+                    <a href="#" className="nav-link">About</a>
+                    <a href="#faq" className="nav-link">FAQ</a>
+                    <a href="#testimonial" className="nav-link">Testimonials</a>
+                    <a href="#contact" className="nav-link">Contact Us</a>
                 </div>
             </div>
         </div>

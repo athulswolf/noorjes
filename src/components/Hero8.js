@@ -36,7 +36,7 @@ const Card = (question, key) => {
 
 const Hero8 = () => {
   return (
-      <div className='flex flex-col w-full h-full gap-5 md:gap-12 py-12 md:py-24 px-6 md:px-36'>
+      <div id='faq' className='flex flex-col w-full h-full gap-5 md:gap-12 py-12 md:py-24 px-6 md:px-36'>
         <div className='mx-auto flex flex-col text-center gap-3 px-2'>
           <p className={`${styles.heroHeadText}`}>We Have the <span className='text-[#3AB7B3]'>Required</span> QnA</p>
         </div>
