@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='w-full flex justify-center py-2 md:py-4'>
+            <div className='w-full flex justify-center px-6 py-4'>
                 <p className="text-white text-center text-xs md:text-base font-normal font-raleway capitalize">© 2023 by Imagine  | All Right Reserved | Powered by procube.cx</p>
             </div>
         </div>
