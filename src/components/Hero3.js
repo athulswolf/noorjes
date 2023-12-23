@@ -12,7 +12,7 @@ const Hero3 = () => {
           <p className={`${styles.heroHeadText}`}>A Perfume That Makes <span className='text-[#3AB7B3]'>Complete</span></p>
           <p className={`${styles.subHeading}`}>Eget arcu dictum varius duis. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Nunc id cursus metus aliquam. Ipsum dolor sit amet consectetur. Ipsum dolor sit amet consectetur. Eget duis at tellus at urna condimentum mattis pellentesque. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin.</p>
         </div>
-        <img src={video} alt="phone" className='w-full md:w-[300px]' />
+        <img src={video} alt="phone" className='w-full md:w-full' />
       </div>
     </div>
   )

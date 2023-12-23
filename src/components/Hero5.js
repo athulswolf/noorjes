@@ -23,7 +23,7 @@ const cardDetails = [{
 
 const card = (title, description,icon,key) => {
   return (
-    <div className='flex flex-col max-w-xl text-center gap-2 md:gap-4 border-2 border-[#3AB7B3] rounded-full aspect-square justify-center' key={key}>
+    <div className='flex flex-col max-w-xl text-center gap-2 md:gap-4 border-2 border-[#3AB7B3] rounded-full aspect-square justify-center p-4' key={key}>
       <img src={icon} alt="icon" className='w-16 h-16 md:w-24 md:h-24 mx-auto'/>
       <p className="text-[#151515] font-normal text-base md:text-2xl font-playfair">{title}</p>
       <p className={`${styles.subHeading}`}>{description}</p>
