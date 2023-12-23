@@ -26,7 +26,7 @@ const cardDetails = [{
 }]
 
 
-const card = (title, description, icon,check,key) => {
+const card = (title, description, icon, check, key) => {
   return (
     <div className={`flex h- flex-col max-w-xl text-left ${check && 'md:text-right md:items-end'} gap-2`} key={key}>
       <img src={icon} alt="icon" className='h-12 w-12' />
@@ -41,20 +41,19 @@ const Hero4 = () => {
     <div className='py-6 px-6 md:py-16 md:px-36'>
       <div className='flex flex-col w-full h-full items-center gap-6 md:gap-16'>
         <div className='flex flex-col md:max-w-5xl text-center gap-2 md:gap-4'>
-        <p className={`${styles.heroHeadText}`}>A Perfume That Makes <span className='text-[#3AB7B3]'>Complete</span></p>
+          <p className={`${styles.heroHeadText}`}>A Perfume That Makes <span className='text-[#3AB7B3]'>Complete</span></p>
         </div>
-        <div className='grid grid-cols-4 md:grid-cols-4 gap-4 '>
-  <div className='flex flex-col md:my-auto  justify-between col-span-1 gap-6'>
-    {cardDetails.slice(0, 2).map((cardDetail,index) => card(cardDetail.title, cardDetail.description, cardDetail.icon, true,index))}
-  </div>
-  <div className='hidden md:flex md:my-auto justify-center col-span-2'>
-    {/* change width */}
-    <img src={Perfume} alt="perfume" className='w-full md:w-[500px]' />
-  </div>
-  <div className='flex flex-col md:my-auto justify-between col-span-1 gap-6'>
-    {cardDetails.slice(2, 4).map((cardDetail,index) => card(cardDetail.title, cardDetail.description, cardDetail.icon, false,index))}
-  </div>
-</div>
+        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 '>
+          <div className='flex flex-col md:my-auto  justify-between col-span-1 gap-6'>
+            {cardDetails.slice(0, 2).map((cardDetail, index) => card(cardDetail.title, cardDetail.description, cardDetail.icon, true, index))}
+          </div>
+          <div className='flex md:my-auto justify-center col-span-2 row-start-1 md:col-start-2'>
+            <img src={Perfume} alt="perfume" className='w-full md:w-[500px]' />
+          </div>
+          <div className='flex flex-col md:my-auto justify-between col-span-1 gap-6'>
+            {cardDetails.slice(2, 4).map((cardDetail, index) => card(cardDetail.title, cardDetail.description, cardDetail.icon, false, index))}
+          </div>
+        </div>
 
       </div>
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { styles } from '../style'
 import Order from '../assets/Order.png'
+import { HiMiniShoppingBag } from "react-icons/hi2";
 
 const Hero6 = () => {
     return (
@@ -16,7 +17,8 @@ const Hero6 = () => {
                     <p className={`${styles.subHeading}`}>Frilled shark ground shark livebearer cutthroat trout</p>
                     <p className={`${styles.subHeading}`}>Frilled shark ground shark livebearer cutthroat trout</p>
                     <p className={`${styles.subHeading}`}>Frilled shark ground shark livebearer cutthroat trout</p>
-                    <div className='px-6 py-2 bg-[#3AB7B3] rounded-full flex flex-row gap-2 w-44'>
+                    <div className='px-6 py-3 bg-[#3AB7B3] rounded-full flex flex-row gap-2 w-[140px] md:w-[180px] items-center'>
+                        <HiMiniShoppingBag className='w-6 h-6 text-white  ' />
                         <a href='/contact' className={`${styles.subHeading} !text-white`}>Order Now </a>
                     </div>
                 </div>
