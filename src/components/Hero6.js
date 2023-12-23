@@ -1,16 +1,13 @@
 import React from 'react'
 import { styles } from '../style'
-// import family1 from '../../assets/landing/family1.png'
-// import Vector3 from '../../assets/landing/Vector3.png'
-// import Vector4 from '../../assets/landing/Vector4.png'
-// import { MdArrowForwardIos } from 'react-icons/md'
+import Order from '../assets/Order.png'
 
 const Hero6 = () => {
     return (
         <div className='relative flex flex-col md:flex-row w-full px-6 md:px-36 py-6 md:py-10 bg-[#F5FBFB] overflow-hidden gap-x-10'>
             {/* <img src={Vector3} alt='vector' className='absolute h-8 md:h-12 md:left-16 md:top-16'/> */}
             <div className='flex md:flex-1 h-full justify-center items-center my-auto'>
-                {/* <img src={family1} alt='family' className='py-6 w-10/12 sm:w-3/5 md:w-11/12' /> */}
+                <img src={Order} alt='family' className='py-6 w-10/12 sm:w-3/5 md:w-11/12' />
             </div>
             <div className='flex md:flex-1 h-full flex-col my-auto items-center md:items-start gap-4'>
                 <div className='md:max-w-lg flex flex-col gap-2 md:gap-6 text-left'>

@@ -1,7 +1,6 @@
 import React from 'react'
 import { styles } from '../style'
-// import { icon4, icon5, icon6, icon7, icon8, icon9 } from '../../assets/landing/icon/icon'
-// import phone1 from '../../assets/landing/phone1.png'
+import video from '../assets/video.png'
 
 
 
@@ -13,7 +12,7 @@ const Hero3 = () => {
           <p className={`${styles.heroHeadText}`}>A Perfume That Makes <span className='text-[#3AB7B3]'>Complete</span></p>
           <p className={`${styles.subHeading}`}>Eget arcu dictum varius duis. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Nunc id cursus metus aliquam. Ipsum dolor sit amet consectetur. Ipsum dolor sit amet consectetur. Eget duis at tellus at urna condimentum mattis pellentesque. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin.</p>
         </div>
-        <img src='https://images.unsplash.com/photo-1612835362596-5b7b3b7b7b7b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyZmVjdCUyMGZvcm1hdCUyMGFwcG9pbnRtZW50fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80' alt="phone" className='w-full md:w-[300px]' />
+        <img src={video} alt="phone" className='w-full md:w-[300px]' />
       </div>
     </div>
   )

@@ -1,25 +1,28 @@
 import React from 'react'
 import { styles } from '../style'
-// import { icon1 ,icon2,icon3 } from '../../assets/landing/icon/icon'
+import icon1 from '../assets/icon/Icon1.png'
+import icon2 from '../assets/icon/Icon2.png'
+import icon3 from '../assets/icon/Icon3.png'
+import icon4 from '../assets/icon/Icon4.png'
 
 
 const cardDetails = [{
   title: '100% high quality product',
   description: 'Immerse yourself in a symphony upon your skin. ',
-  icon: "icon1",
+  icon: icon1,
 }, {
   title: 'Best Quality product',
   description: 'Immerse yourself in a symphony upon your skin. ',
-  icon: "icon2",
+  icon: icon2,
 }, {
   title: 'Free shipping charge',
   description: 'Immerse yourself in a symphony upon your skin. ',
-  icon: "icon3",
+  icon: icon3,
 },
 {
     title: 'Money back guarantee',
     description: 'Immerse yourself in a symphony upon your skin. ',
-    icon: "icon1",
+    icon: icon4,
 }]
 
 
@@ -27,7 +30,7 @@ const cardDetails = [{
 const card = (title, description,icon,key) => {
   return (
     <div className='flex flex-col max-w-xl text-left gap-1 md:gap-2' key={key}>
-      {/* <img src={icon} alt="icon" className='w-16 h-16 md:w-24 md:h-24 mx-auto'/> */}
+      <img src={icon} alt="icon" className='w-10 h-10 md:w-16 md:h-16'/>
       <p className={`${styles.lightHeading}`}>{title}</p>
       <p className={`${styles.subHeading}`}>{description}</p>
     </div>
