@@ -23,8 +23,8 @@ const Card = (question, key) => {
   return (
     <div>
       <div className='flex flex-row justify-between w-full bg-[#F5FBFB] rounded-xl p-3 md:p-6 gap-4 md:items-center' key={key} onClick={() => setToggle(!toggle)} >
-        <p className="text-[#151515] text-sm md:text-xl font-normal  font-raleway capitalize">{question}</p>
-        <FaCirclePlus className='text-[#3AB7B3] w-10 h-10' />
+        <p className="text-[#151515] text-sm md:text-xl font-normal font-raleway capitalize">{question}</p>
+        <FaCirclePlus className='text-[#3AB7B3] w-10 h-10 aspect-square ' />
       </div>
       <div>
         {toggle && <div className='flex flex-row justify-between w-full rounded-xl p-3 md:p-6 gap-4 md:items-center'> <p className="text-[#151515] text-sm md:text-xl font-normal font-raleway capitalize">{question}</p></div>}

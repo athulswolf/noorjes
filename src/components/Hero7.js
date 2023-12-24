@@ -23,7 +23,7 @@ const card = (title, description,icon,key) => {
   return (
 <div className='flex flex-col text-center min-w-[200px] md:min-w-[350px] md:max-w-[360px] bg-[#F5FBFB] rounded-xl items-center p-6 gap-4 relative mt-10' key={key}>
   {/* <img src={icon} alt="icon" className='w-16 md:w-24 h-16 md:h-24'/> */}
-  <div alt='comment' className='absolute -top-5 right-6 h-10 w-10 md:h-16 md:w-16 md:-top-8 bg-[#3AB7B3] rounded-full aspect-square flex items-center justify-center p-4'>
+  <div alt='comment' className='absolute -top-5 right-6 h-10 w-10 md:h-16 md:w-16 md:-top-8 bg-[#3AB7B3] rounded-full aspect-square flex items-center justify-center p-[10px] md:p-4'>
     <FaQuoteLeft className='text-white w-full h-full'/>
   </div>
   <p className={`${styles.lightHeading}`}>{title}</p>
