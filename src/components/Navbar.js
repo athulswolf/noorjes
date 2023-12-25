@@ -6,7 +6,7 @@ export const Navbar = () => {
 
     React.useEffect(() => {
         const links = document.querySelectorAll('.nav-link');
-    
+
         const handleLinkClick = (event) => {
             links.forEach(link => {
                 if (link === event.target) {
@@ -16,23 +16,23 @@ export const Navbar = () => {
                 }
             });
         };
-    
+
         links.forEach(link => {
             if (link.getAttribute('href') === window.location.hash) {
                 link.classList.add('text-[#3AB7B3]');
             }
             link.addEventListener('click', handleLinkClick);
         });
-    
+
         return () => {
             links.forEach(link => {
                 link.removeEventListener('click', handleLinkClick);
             });
         };
     }, [window.location.hash]);
-    
-    
-    
+
+
+
 
 
 
@@ -52,7 +52,7 @@ export const Navbar = () => {
                 </div>
 
                 <div className="md:hidden flex items-center">
-                    <button className="mobile-menu-button" onClick={ ()=> setToggleMenu(true)}>
+                    <button className="mobile-menu-button" onClick={() => setToggleMenu(true)}>
                         <svg className="w-6 h-6" fill="none" stroke='black' viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
@@ -68,11 +68,11 @@ export const Navbar = () => {
                                 <img src='./logo.svg' alt="logo" className="h-5 w-24 md:h-7 md:w-36" />
                             </a>
                         </div>
-                        <button className="close-button" onClick={()=>setToggleMenu(false)}>
-                        <svg className="w-6 h-6" fill="none" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
-                        </svg>
-                    </button>
+                        <button className="close-button" onClick={() => setToggleMenu(false)}>
+                            <svg className="w-6 h-6" fill="none" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
                     </div>
                     <a href="#" className="nav-link">About</a>
                     <a href="#faq" className="nav-link">FAQ</a>

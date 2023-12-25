@@ -14,17 +14,17 @@ import { Navbar } from '../components/Navbar'
 const Landing = () => {
   return (
     <div>
-      <Navbar/>
-      <Hero1/>
-      <Hero2/>
-      <Hero3/>
-      <Hero4/>
-      <Hero5/>
-      <Hero6/>
-      <Hero7/>
-      <Hero8/>
-      <Hero9/>
-      <Footer/>
+      <Navbar />
+      <Hero1 />
+      <Hero2 />
+      <Hero3 />
+      <Hero4 />
+      <Hero5 />
+      <Hero6 />
+      <Hero7 />
+      <Hero8 />
+      <Hero9 />
+      <Footer />
     </div>
   )
 }

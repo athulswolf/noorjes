@@ -33,7 +33,6 @@ const Hero6 = () => {
                     </div>
                 </div>
             </div>
-            {/* <img src={Vector4} alt='vector' className='absolute h-10 md:h-20 bottom-4 -right-2 md:bottom-10 md:right-10'/> */}
         </div>
     )
 }

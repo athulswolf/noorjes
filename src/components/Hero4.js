@@ -54,7 +54,6 @@ const Hero4 = () => {
             {cardDetails.slice(2, 4).map((cardDetail, index) => card(cardDetail.title, cardDetail.description, cardDetail.icon, false, index))}
           </div>
         </div>
-
       </div>
     </div>
   )

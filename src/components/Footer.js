@@ -26,15 +26,15 @@ const Footer = () => {
                     <div className='flex flex-col md:mx-auto gap-y-3 '>
                         <p className="text-white text-base md:text-2xl font-normal font-playfair ">Contact Us</p>
                         <div className='flex flex-row gap-3 items-center'>
-                            <img src={phone} className='w-8 h-8 md:w-10 md:h-10'/>
+                            <img src={phone} className='w-8 h-8 md:w-10 md:h-10' />
                             <p className="text-white text-xs md:text-base font-normal font-raleway">+1 800 100 900</p>
                         </div>
                         <div className='flex flex-row gap-3 items-center'>
-                            <img src={mail} className='w-8 h-8 md:w-10 md:h-10'/>
+                            <img src={mail} className='w-8 h-8 md:w-10 md:h-10' />
                             <p className="text-white text-xs md:text-base font-normal font-raleway">Beacon@gmail.com</p>
                         </div>
                         <div className='flex flex-row gap-3 items-center'>
-                            <img src={location} className='w-8 h-8 md:w-10 md:h-10'/>
+                            <img src={location} className='w-8 h-8 md:w-10 md:h-10' />
                             <p className="text-white text-xs md:text-base font-normal font-raleway">195 Devonshire St Boston, MA 02110</p>
                         </div>
                     </div>
@@ -42,12 +42,12 @@ const Footer = () => {
                 <div className='flex flex-1'>
                     <div className='flex flex-col md:mx-auto gap-y-3 '>
                         <p className="text-white text-base md:text-2xl font-normal font-playfair ">Media Information</p>
-                    <div className='flex flex-row md:mx-auto gap-3 '>
-                        <img src={whatsapp} alt="whatsapp" className='w-8 h-8 md:w-10 md:h-10'/>
-                        <img src={instagram} alt="facebook" className='w-8 h-8 md:w-10 md:h-10'/>
-                        <img src={facebook} alt="instagram" className='w-8 h-8 md:w-10 md:h-10'/>
-                        <img src={linkedin} alt="linkedin" className='w-8 h-8 md:w-10 md:h-10'/>
-                    </div>
+                        <div className='flex flex-row md:mx-auto gap-3 '>
+                            <img src={whatsapp} alt="whatsapp" className='w-8 h-8 md:w-10 md:h-10' />
+                            <img src={instagram} alt="facebook" className='w-8 h-8 md:w-10 md:h-10' />
+                            <img src={facebook} alt="instagram" className='w-8 h-8 md:w-10 md:h-10' />
+                            <img src={linkedin} alt="linkedin" className='w-8 h-8 md:w-10 md:h-10' />
+                        </div>
                     </div>
                 </div>
             </div>

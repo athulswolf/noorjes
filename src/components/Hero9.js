@@ -12,10 +12,10 @@ const Hero9 = () => {
           <p className="text-[#151515] font-normal text-2xl md:text-5xl font-playfair">Enough talk, let's make you look beautiful</p>
           <p className={`${styles.subHeading}`}>Immerse yourself in a symphony of delightful notes that dance upon your skin. Our perfumes blend artistry and passionu.</p>
           <div className='flex flex-row gap-4'>
-          <div className='px-6 py-3 bg-[#3AB7B3] rounded-full flex flex-row gap-2 items-center'>
-                        <HiMiniShoppingBag className='w-6 h-6 text-white  ' />
-                        <a href='/contact' className={`${styles.subHeading} !text-white`}>Order Now </a>
-          </div>
+            <div className='px-6 py-3 bg-[#3AB7B3] rounded-full flex flex-row gap-2 items-center'>
+              <HiMiniShoppingBag className='w-6 h-6 text-white  ' />
+              <a href='/contact' className={`${styles.subHeading} !text-white`}>Order Now </a>
+            </div>
           </div>
         </div>
       </div>
