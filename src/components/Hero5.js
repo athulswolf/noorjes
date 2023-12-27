@@ -39,7 +39,7 @@ const Hero5 = () => {
         <div className='flex flex-col md:max-w-4xl text-center gap-2 md:gap-4'>
           <p className={`${styles.heroHeadText}`}>Our Numbers <span className='text-[#3AB7B3]'>Speak</span> for themselves</p>
         </div>
-        <div className='flex justify-center w-full py-1 px-6 md:pl-36'>
+        <div className='flex justify-center w-full py-1 px-6 '>
           <div className='flex flex-row gap-8 overflow-x-auto  pr-4'>
             {cardDetails.map((cardDetail, index) => card(cardDetail.title, cardDetail.description, cardDetail.icon, index))}
           </div>
