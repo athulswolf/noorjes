@@ -6,8 +6,9 @@ import { HiMiniShoppingBag } from "react-icons/hi2";
 
 const Hero1 = () => {
   return (
-    <div className='flex flex-col md:flex-row w-full h-screen bg-image-m md:bg-image-l bg-no-repeat bg-cover bg-center px-6 md:px-36 max-h-[900px]'>
-      <div className='flex md:w-1/2 h-full flex-col md:ml-auto md:justify-center mt-20 md:mt-0'>
+    <div className='flex flex-col md:flex-row w-full h-screen max-h-[900px] pt-16 md:pt-20 bg-black'>
+      <div className='h-full w-full bg-image-m md:bg-image-l bg-no-repeat bg-cover bg-center px-6 md:px-36 '>
+      <div className='flex md:w-1/2 h-full flex-col md:ml-auto md:justify-center mt-6 md:mt-0'>
         <div className='w-full text-center md:text-left gap-4 md:gap-5 flex flex-col'>
           <p className={styles.heading}>Lets Feel the True Fragnace</p>
           <p className={styles.subHeading}>Immerse yourself in a symphony of delightful notes that dance upon your skin. Our perfumes blend artistry and passion, capturing the essence of femininity and allure. Enchanting aromas transport you.</p>
@@ -18,6 +19,7 @@ const Hero1 = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   )
