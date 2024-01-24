@@ -13,10 +13,10 @@ const Hero1 = () => {
           <p className={styles.heading}>Your Scent Tells Your Story!</p>
           <p className={styles.subHeading}>Explore a world where scents are not just an accessory but an expression of your unique essence. Each fragrance is a masterpiece, blending the finest ingredients catering to every mood and desire</p>
           <div className="text-white font-semibold text-lg flex gap-16 justify-center md:justify-start">
-            <button href='https://gazaal.com/products/noorjes-imagine' className='px-6 py-3 bg-[#3AB7B3] rounded-full flex flex-row gap-2 items-center'>
+            <a href='https://gazaal.com/products/noorjes-imagine' className='px-6 py-3 bg-[#3AB7B3] rounded-full flex flex-row gap-2 items-center'>
               <HiMiniShoppingBag className='w-6 h-6' />
               <div className={`${styles.subHeading} !text-white`}>Order Now </div>
-            </button>
+            </a>
           </div>
         </div>
       </div>
