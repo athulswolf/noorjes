@@ -10,6 +10,32 @@ import Hero8 from '../components/Hero8'
 import Hero9 from '../components/Hero9'
 import Footer from '../components/Footer'
 import { Navbar } from '../components/Navbar'
+// import ProductDetails from '../components/Shopify'
+
+// import Client from 'shopify-buy';
+
+// const client = Client.buildClient({
+//   domain: 'gazaal-store.myshopify.com',
+//   storefrontAccessToken: '5abe31b59a198837d0bf641aa787858b'
+// });
+
+// const clientWithTranslatedContent = Client.buildClient({
+//   domain: 'gazaal-store.myshopify.com',
+//   storefrontAccessToken: '5abe31b59a198837d0bf641aa787858b',
+//   language: 'ja-JP'
+// });
+
+// client.product.fetchAll().then((products) => {
+//   console.log(products);
+// });
+
+// const productId = 'gid://shopify/Product/7652685119705';
+
+// client.product.fetch(productId).then((product) => {
+//   console.log(product,"try");
+// });
+
+
 
 const Landing = () => {
   return (
@@ -25,6 +51,7 @@ const Landing = () => {
       <Hero8 />
       <Hero9 />
       <Footer />
+      {/* <ProductDetails /> */}
     </div>
   )
 }

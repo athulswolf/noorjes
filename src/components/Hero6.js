@@ -27,10 +27,10 @@ const Hero6 = () => {
                         <FaCircleCheck className='w-6 h-6 text-[#3AB7B3]' />
                         <p className={`${styles.subHeading}`}>Personalized Connection: Scents tailored to your individuality.</p>
                     </div>
-                    <div className='px-6 py-3 bg-[#3AB7B3] rounded-full flex flex-row gap-2 w-[142px] md:w-[180px] items-center'>
+                    <button href='https://gazaal.com/products/noorjes-imagine' className='px-6 py-3 bg-[#3AB7B3] rounded-full flex flex-row gap-2 w-[142px] md:w-[180px] items-center'>
                         <HiMiniShoppingBag className='w-6 h-6 text-white  ' />
-                        <a href='/contact' className={`${styles.subHeading} !text-white`}>Order Now </a>
-                    </div>
+                        <div  className={`${styles.subHeading} !text-white`}>Order Now </div>
+                    </button>
                 </div>
             </div>
         </div>
