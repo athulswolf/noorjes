@@ -8,25 +8,25 @@ import picture4 from '../assets/picture4.png'
 
 
 const cardDetails = [{
-  title: 'Marvin McKinney',
-  description: 'Customer testimonials are more effective than paid marketing copy as they take the spotlight away from the seller to shine it on the customers. Customer testimonials are more effective than paid marketing copy as they take the spotlight away from the seller to shine it on the customers. ',
+  title: '',
+  description: '',
   video: true,
   icon: picture1
 
 }, {
-  title: 'Albert Flores',
-  description: 'Customer testimonials are more effective than paid marketing copy as they take the spotlight away from the seller to shine it on the customers. Customer testimonials are more effective than paid marketing copy as they take the spotlight away from the seller to shine it on the customers. ',
+  title: '',
+  description: '',
   video: true,
   icon: picture2
 }, {
-  title: 'Marvin McKinney',
-  description: 'Customer testimonials are more effective than paid marketing copy as they take the spotlight away from the seller to shine it on the customers. Customer testimonials are more effective than paid marketing copy as they take the spotlight away from the seller to shine it on the customers. ',
+  title: 'Sarah',
+  description: 'NoorJes Imagine Perfume adds magic to my day. The scents are divine, evolving beautifully. Every spray feels like a personal touch, a little luxury that brightens my moments.',
   video: false,
   icon: picture3
 }
   , {
-  title: 'Eleanor Pena',
-  description: 'Customer testimonials are more effective than paid marketing copy as they take the spotlight away from the seller to shine it on the customers. Customer testimonials are more effective than paid marketing copy as they take the spotlight away from the seller to shine it on the customers. ',
+  title: 'James',
+  description: 'Impressed by the unique blends! NoorJes Imagine Perfume offers an exquisite range that suits various moods. The scents are distinct and linger beautifully. My new go-to fragrance brand!',
   video: false,
   icon: picture4
 }]
@@ -62,8 +62,8 @@ const card = (title, description, icon, video, key) => {
 const Hero7 = () => {
   return (
     <div className='flex flex-col w-full h-full gap-12 py-12 md:py-24 px-6 md:px-36'>
-      <div className='mx-auto flex flex-col md:max-w-xl text-center gap-3 px-2'>
-        <p className={`${styles.heroHeadText}`}>Love<span className='text-[#3AB7B3]'> Words </span>From Purchaser</p>
+      <div className='mx-auto flex flex-col md:max-w-6xl text-center gap-3 px-2'>
+        <p className={`${styles.heroHeadText}`}>Our Fragrance Journey Through <span className='text-[#3AB7B3]'>Customer Eyes</span></p>
       </div>
       <div className='flex justify-center w-full py-1'>
         <div className='flex flex-row gap-8 overflow-x-auto pr-4'>

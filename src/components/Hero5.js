@@ -6,18 +6,18 @@ import icon7 from '../assets/icon/Icon7.png';
 
 const cardDetails = [
   {
-    title: '4.9+ Review Rating',
-    description: 'Immerse yourself in a symphony upon your skin.',
+    title: 'Amazon Rating: 4.9+/5',
+    description: 'Trusted by customers worldwide for excellence',
     icon: icon5,
   },
   {
-    title: '4.9+ Review Rating',
-    description: 'Immerse yourself in a symphony upon your skin.',
+    title: 'Noon Rating: 4.9+/5',
+    description: 'Noon shoppers love our scents, top-rated always.',
     icon: icon6,
   },
   {
-    title: '4.9+ Review Rating',
-    description: 'Immerse yourself in a symphony upon your skin.',
+    title: 'Webship Rating: 4.9+/5',
+    description: 'Webship users rate us high, fragrance satisfaction guaranteed',
     icon: icon7,
   },
 ];

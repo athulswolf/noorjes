@@ -74,10 +74,10 @@ export const Navbar = () => {
                             </svg>
                         </button>
                     </div>
-                    <a href="#" className="nav-link">About</a>
-                    <a href="#faq" className="nav-link">FAQ</a>
-                    <a href="#testimonial" className="nav-link">Testimonials</a>
-                    <a href="#contact" className="nav-link">Contact Us</a>
+                    <a href="#" className="nav-link" onClick={()=>setToggleMenu(false)}>About</a>
+                    <a href="#faq" className="nav-link" onClick={()=>setToggleMenu(false)}>FAQ</a>
+                    <a href="#testimonial" className="nav-link" onClick={()=>setToggleMenu(false)}>Testimonials</a>
+                    <a href="#contact" className="nav-link" onClick={()=>setToggleMenu(false)}>Contact Us</a>
                 </div>
             </div>
         </div>

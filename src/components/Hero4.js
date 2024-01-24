@@ -9,19 +9,19 @@ import Perfume from '../assets/Perfume.png'
 
 const cardDetails = [{
   title: 'Amber',
-  description: 'Immerse yourself in a symphony upon your skin. ',
+  description: 'A warm Hug in Every Scent',
   icon: Elipse1,
 }, {
   title: 'Chinese Black Tea',
-  description: 'Immerse yourself in a symphony upon your skin. ',
+  description: 'Elegance in Every Breath',
   icon: Elipse2,
 }, {
   title: 'Noble Citrus',
-  description: 'Immerse yourself in a symphony upon your skin. ',
+  description: 'Feel Royally Refreshed in every spray',
   icon: Elipse3,
 }, {
   title: 'Cinnamon',
-  description: 'Immerse yourself in a symphony upon your skin. ',
+  description: 'Spice Up Your Senses Gently.',
   icon: Elipse4,
 }]
 
@@ -41,7 +41,7 @@ const Hero4 = () => {
     <div className='py-6 px-6 md:py-16 md:px-36'>
       <div className='flex flex-col w-full h-full items-center gap-6 md:gap-16'>
         <div className='flex flex-col md:max-w-5xl text-center gap-2 md:gap-4'>
-          <p className={`${styles.heroHeadText}`}>A Perfume That Makes <span className='text-[#3AB7B3]'>Complete</span></p>
+          <p className={`${styles.heroHeadText}`}>Your Perfume, Our Enchanting <span className='text-[#3AB7B3]'>Ingredients!</span></p>
         </div>
         <div className='grid grid-cols-2 md:grid-cols-4 gap-4 '>
           <div className='flex flex-col md:my-auto  justify-between col-span-1 gap-6'>
