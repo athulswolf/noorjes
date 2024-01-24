@@ -7,7 +7,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 const Hero6 = () => {
     return (
-        <div className='relative flex flex-col md:flex-row w-full px-6 md:px-36 py-6 md:py-10 bg-[#F5FBFB] overflow-hidden gap-x-10'>
+        <div className='relative flex flex-col md:flex-row w-full px-6 md:px-36 py-6 md:py-10 bg-[#F5FBFB] overflow-hidden gap-x-10' id='about'>
             <div className='flex md:flex-1 h-full justify-center items-center my-auto'>
                 <img src={Order} alt='family' className='py-6 w-full md:w-11/12' />
             </div>
