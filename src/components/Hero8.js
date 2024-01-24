@@ -27,12 +27,12 @@ const Card = (question,answer, key) => {
   const [toggle, setToggle] = useState(false)
   return (
     <div>
-      <div className='flex flex-row justify-between w-full bg-[#F5FBFB] rounded-xl p-3 md:p-6 gap-4 md:items-center' key={key} onClick={() => setToggle(!toggle)} >
-        <p className="text-[#151515] text-sm md:text-xl font-medium font-playfair capitalize">{question}</p>
+      <div className='flex flex-col  bg-[#F5FBFB] rounded-xl p-3 md:p-6 gap-4 ' key={key} onClick={() => setToggle(!toggle)} >
+        <div className='flex flex-row justify-between w-full gap-4 md:items-center'>
+        <p className="text-[#151515] text-sm md:text-2xl font-medium font-playfair capitalize">{question}</p>
         <FaCirclePlus className={`text-[#3AB7B3] w-10 h-10 aspect-square ${toggle ? 'rotate-transition rotate-45' : 'rotate-transition'} `} />
-      </div>
-      <div>
-        {toggle && <div className='flex flex-row justify-between w-full rounded-xl p-3 md:p-6 gap-4 md:items-center'> <p className="text-[#555555] text-sm md:text-lg font-normal font-raleway capitalize">{answer}</p></div>}
+        </div>
+        {toggle && <div className=' w-full'> <p className="text-[#555555] text-sm md:text-lg font-normal font-raleway capitalize">{answer}</p></div>}
       </div>
     </div>
 

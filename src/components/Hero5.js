@@ -36,8 +36,8 @@ const Hero5 = () => {
   return (
     <div className='py-28 '>
       <div className='flex flex-col w-full h-full items-center gap-12 md:gap-24'>
-        <div className='flex flex-col md:max-w-4xl text-center gap-2 md:gap-4'>
-          <p className={`${styles.heroHeadText}`}>Our Numbers <span className='text-[#3AB7B3]'>Speak</span> for themselves</p>
+        <div className='flex flex-col md:max-w-6xl text-center gap-2 md:gap-4'>
+          <p className={`${styles.heroHeadText}`}>Top <span className='text-[#3AB7B3]'>Ratings </span>Across Lеading Platforms Worldwidе</p>
         </div>
         <div className='flex justify-center w-full py-1 px-6 '>
           <div className='flex flex-row gap-8 overflow-x-auto  pr-4'>
