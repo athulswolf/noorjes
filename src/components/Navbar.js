@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../assets/logo.png';
 
 export const Navbar = () => {
     const [toggleMenu, setToggleMenu] = React.useState(false);

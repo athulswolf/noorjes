@@ -41,7 +41,7 @@ const card = (title, description, icon, video, key) => {
         <div alt='comment' className='absolute -top-5 right-6 h-10 w-10 md:h-16 md:w-16 md:-top-8 bg-[#3AB7B3] rounded-full aspect-square flex items-center justify-center p-[10px] md:p-4'>
           <FaQuoteLeft className='text-white w-full h-full' />
         </div>
-        <img src={icon} className='h-full min-w-[200px] md:min-w-[300px]' />
+        <img alt='icon' src={icon} className='h-full min-w-[200px] md:min-w-[300px]' />
 
       </div>
         :
@@ -49,7 +49,7 @@ const card = (title, description, icon, video, key) => {
           <div alt='comment' className='absolute -top-5 right-6 h-10 w-10 md:h-16 md:w-16 md:-top-8 bg-[#3AB7B3] rounded-full aspect-square flex items-center justify-center p-[10px] md:p-4'>
             <FaQuoteLeft className='text-white w-full h-full' />
           </div>
-          <img src={icon} className='h-20 w-20 md:h-20 md:w-20 rounded-full' />
+          <img alt='icon' src={icon} className='h-20 w-20 md:h-20 md:w-20 rounded-full' />
           <p className={`${styles.lightHeading}`}>{title}</p>
           <p className={`${styles.subHeading}`}>{description}</p>
         </div>}
@@ -61,7 +61,7 @@ const card = (title, description, icon, video, key) => {
 
 const Hero7 = () => {
   return (
-    <div className='flex flex-col w-full h-full gap-12 py-12 md:py-24 px-6 md:px-36'>
+    <div className='flex flex-col w-full h-full gap-12 py-12 md:py-24 px-6 md:px-36' id='testimonial'>
       <div className='mx-auto flex flex-col md:max-w-6xl text-center gap-3 px-2'>
         <p className={`${styles.heroHeadText}`}>Our Fragrance Journey Through <span className='text-[#3AB7B3]'>Customer Eyes</span></p>
       </div>
