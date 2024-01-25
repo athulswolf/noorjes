@@ -59,7 +59,7 @@ export const Navbar = () => {
                 </div>
             </div>
             {/* Mobile Menu */}
-            <div className={`fixed top-0 left-0 w-3/4 h-full bg-white z-50 transform ${toggleMenu ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out`}>
+            <div className={`fixed top-0 right-0 w-3/4 h-full bg-white z-50 transform ${toggleMenu ? 'translate-x-0' : ' translate-x-full'} transition-transform duration-300 ease-in-out`}>
                 <div className="md:hidden text-black font-normal text-lg flex flex-col mx-5 gap-4 ">
                     <div className='flex justify-between py-5'>
                         <div className="flex items-center gap-x-14">
