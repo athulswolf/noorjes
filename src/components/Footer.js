@@ -44,12 +44,12 @@ const Footer = () => {
                         <p className="text-white text-base md:text-2xl font-normal font-playfair ">Media Information</p>
                         <div className='flex flex-row md:mx-auto gap-3 '>
                             <a href='https://wa.link/96lo06'>
-                            <img src={whatsapp} alt="whatsapp" className='w-8 h-8 md:w-10 md:h-10' />
+                                <img src={whatsapp} alt="whatsapp" className='w-8 h-8 md:w-10 md:h-10' />
                             </a>
-                            <img src={instagram} alt="facebook" className='w-8 h-8 md:w-10 md:h-10' />
                             <a href='https://www.instagram.com/noorjesperfumes?igsh=MXJ3dGhpMDEzbnhqZw=='>
-                            <img src={facebook} alt="instagram" className='w-8 h-8 md:w-10 md:h-10' />
+                                <img src={instagram} alt="facebook" className='w-8 h-8 md:w-10 md:h-10' />
                             </a>
+                            <img src={facebook} alt="instagram" className='w-8 h-8 md:w-10 md:h-10' />
                             <img src={linkedin} alt="linkedin" className='w-8 h-8 md:w-10 md:h-10' />
                         </div>
                     </div>
