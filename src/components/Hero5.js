@@ -11,7 +11,7 @@ const cardDetails = [
     icon: icon5,
   },
   {
-    title: 'Noon Rating: 4.+/5',
+    title: 'Noon Rating: 4.7+/5',
     description: 'Noon shoppers love our scents, top-rated always.',
     icon: icon6,
   },
