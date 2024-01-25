@@ -49,8 +49,8 @@ const Footer = () => {
                             <a href='https://www.instagram.com/noorjesperfumes?igsh=MXJ3dGhpMDEzbnhqZw=='>
                                 <img src={instagram} alt="facebook" className='w-8 h-8 md:w-10 md:h-10' />
                             </a>
-                            <img src={facebook} alt="instagram" className='w-8 h-8 md:w-10 md:h-10' />
-                            <img src={linkedin} alt="linkedin" className='w-8 h-8 md:w-10 md:h-10' />
+                            {/* <img src={facebook} alt="instagram" className='w-8 h-8 md:w-10 md:h-10' /> */}
+                            {/* <img src={linkedin} alt="linkedin" className='w-8 h-8 md:w-10 md:h-10' /> */}
                         </div>
                     </div>
                 </div>
