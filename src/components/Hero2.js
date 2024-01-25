@@ -15,8 +15,8 @@ const cardDetails = [{
   description: 'Our Commitment to Unmatched Quality.',
   icon: icon2,
 }, {
-  title: 'Fast Shipping for UAE Customers',
-  description: 'Explore NoorJes fragrance with fast shipping for UAE customers',
+  title: 'Exclusive shipping',
+  description: 'Fast shipping for UAE customers',
   icon: icon3,
 },
 {
