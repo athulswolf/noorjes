@@ -11,15 +11,15 @@ const cardDetails = [
     icon: icon5,
   },
   {
-    title: 'Noon Rating: 4.9+/5',
+    title: 'Noon Rating: 4.+/5',
     description: 'Noon shoppers love our scents, top-rated always.',
     icon: icon6,
   },
-  {
-    title: 'Webship Rating: 4.9+/5',
-    description: 'Webship users rate us high, fragrance satisfaction guaranteed',
-    icon: icon7,
-  },
+  // {
+  //   title: 'Webship Rating: 4.9+/5',
+  //   description: 'Webship users rate us high, fragrance satisfaction guaranteed',
+  //   icon: icon7,
+  // },
 ];
 
 const card = (title, description, icon, key) => {
