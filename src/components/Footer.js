@@ -27,16 +27,17 @@ const Footer = () => {
                         <p className="text-white text-base md:text-2xl font-normal font-playfair ">Contact Us</p>
                         <div className='flex flex-row gap-3 items-center'>
                             <img src={phone} className='w-8 h-8 md:w-10 md:h-10' />
-                            <p className="text-white text-xs md:text-base font-normal font-raleway">+971 50 353 3460</p>
+                            <a href="tel:+971503533460" className="text-white text-xs md:text-base font-normal font-raleway">+971 50 353 3460</a>
                         </div>
                         <div className='flex flex-row gap-3 items-center'>
                             <img src={mail} className='w-8 h-8 md:w-10 md:h-10' />
-                            <p className="text-white text-xs md:text-base font-normal font-raleway">info@noorjes.com</p>
+                            <a href="mailto:info@noorjes.com" className="text-white text-xs md:text-base font-normal font-raleway">info@noorjes.com</a>
                         </div>
                         <div className='flex flex-row gap-3 items-center'>
                             <img src={location} className='w-8 h-8 md:w-10 md:h-10' />
-                            <p className="text-white text-xs md:text-base font-normal font-raleway">Mamzar Center, Dubai, UAE</p>
+                            <a href="https://www.google.com/maps?q=Mamzar+Center,+Dubai,+UAE" target="_blank" rel="noopener noreferrer" className="text-white text-xs md:text-base font-normal font-raleway">Mamzar Center, Dubai, UAE</a>
                         </div>
+
                     </div>
                 </div>
                 <div className='flex flex-1'>
