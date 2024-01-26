@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
 
             <div className='w-full flex justify-center px-6 py-4'>
-                <p className="text-white text-center text-xs md:text-base font-normal font-raleway capitalize">© 2023 by Imagine  | All Right Reserved | Powered by procube.cx</p>
+                <p className="text-white text-center text-xs md:text-base font-normal font-raleway capitalize">© 2023 by Imagine  | All Right Reserved | <a href='http://www.procube.cx' target='_blank' rel="noopener noreferrer">Powered by procube.cx</a></p>
             </div>
         </div>
     )
