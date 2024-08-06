@@ -20,13 +20,13 @@ const cardDetails = [{
   icon: picture2
 }, {
   title: 'Sarah',
-  description: 'NoorJes Imagine Perfume adds magic to my day. The scents are divine, evolving beautifully. Every spray feels like a personal touch, a little luxury that brightens my moments.',
+  description: 'NoorJes Imagine Perfume adds magic to my day. The best perfume from Dubai offers divine scents that evolve beautifully. Every spray feels like a personal touch, a little luxury that brightens my moments. Buy best perfume online UAE.',
   video: false,
   icon: picture3
 }
   , {
   title: 'James',
-  description: 'Impressed by the unique blends! NoorJes Imagine Perfume offers an exquisite range that suits various moods. The scents are distinct and linger beautifully. My new go-to fragrance brand!',
+  description: 'NoorJes Imagine Perfume makes every day magical. Its divine scent from the best Dubai perfume brands evolves beautifully. Each spray adds a luxurious touch, brightening my day. Buy best perfume online UAE.',
   video: false,
   icon: picture4
 }]
@@ -38,18 +38,18 @@ const card = (title, description, icon, video, key) => {
     <>
       {video ?
         <div className='flex  bg-[#F5FBFB] rounded-xl relative mt-10' key={key}>
-        <div alt='comment' className='absolute -top-5 right-6 h-10 w-10 md:h-16 md:w-16 md:-top-8 bg-[#3AB7B3] rounded-full aspect-square flex items-center justify-center p-[10px] md:p-4'>
+        <div alt='Shop perfumes online UAE.' className='absolute -top-5 right-6 h-10 w-10 md:h-16 md:w-16 md:-top-8 bg-[#3AB7B3] rounded-full aspect-square flex items-center justify-center p-[10px] md:p-4'>
           <FaQuoteLeft className='text-white w-full h-full' />
         </div>
-        <img alt='icon' src={icon} className='h-full min-w-[200px] md:min-w-[300px]' />
+        <img alt='Best Perfume Shop Online UAE' src={icon} className='h-full min-w-[200px] md:min-w-[300px]' />
 
       </div>
         :
         <div className='flex flex-col text-center min-w-[200px] md:min-w-[350px] md:max-w-[360px] bg-[#F5FBFB] rounded-xl items-center p-6 gap-4 relative mt-10' key={key}>
-          <div alt='comment' className='absolute -top-5 right-6 h-10 w-10 md:h-16 md:w-16 md:-top-8 bg-[#3AB7B3] rounded-full aspect-square flex items-center justify-center p-[10px] md:p-4'>
+          <div alt='Buy Oud Perfume Online Dubai' className='absolute -top-5 right-6 h-10 w-10 md:h-16 md:w-16 md:-top-8 bg-[#3AB7B3] rounded-full aspect-square flex items-center justify-center p-[10px] md:p-4'>
             <FaQuoteLeft className='text-white w-full h-full' />
           </div>
-          <img alt='icon' src={icon} className='h-20 w-20 md:h-20 md:w-20 rounded-full' />
+          <img alt='Branded Perfumes Online Dubai' src={icon} className='h-20 w-20 md:h-20 md:w-20 rounded-full' />
           <p className={`${styles.lightHeading}`}>{title}</p>
           <p className={`${styles.subHeading}`}>{description}</p>
         </div>}
