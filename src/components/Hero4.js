@@ -29,7 +29,7 @@ const cardDetails = [{
 const card = (title, description, icon, check, key) => {
   return (
     <div className={`flex h- flex-col max-w-xl text-left ${check && 'md:text-right md:items-end'} gap-2`} key={key}>
-      <img src={icon} alt="icon" className='h-12 w-12' />
+      <img src={icon} alt="Buy perfume online in UAE." className='h-12 w-12' />
       <p className={`${styles.lightHeading}`}>{title}</p>
       <p className={`${styles.subHeading}`}>{description}</p>
     </div>
@@ -48,7 +48,7 @@ const Hero4 = () => {
             {cardDetails.slice(0, 2).map((cardDetail, index) => card(cardDetail.title, cardDetail.description, cardDetail.icon, true, index))}
           </div>
           <div className='flex md:my-auto justify-center col-span-2 row-start-1 md:col-start-2'>
-            <img src={Perfume} alt="perfume" className='w-full md:w-[500px]' />
+            <img src={Perfume} alt="Buy perfume online in UAE." className='w-full md:w-[500px]' />
           </div>
           <div className='flex flex-col md:my-auto justify-between col-span-1 gap-6'>
             {cardDetails.slice(2, 4).map((cardDetail, index) => card(cardDetail.title, cardDetail.description, cardDetail.icon, false, index))}
