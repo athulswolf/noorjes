@@ -25,8 +25,8 @@ const cardDetails = [
   },
   {
     id: 5,
-    question: 'Can I layer different NoorJesse scenes?',
-    answer: 'Sure! Our fragrances are intended to work with one another, so you may create your own special blend.',
+    question: 'Where Can I Find the Best Perfume Online in UAE?',
+    answer: 'NoorJes offers an outstanding collection of the best perfumes online in UAE, allowing you to shop from the comfort of your home.',
   },
 ];
 
