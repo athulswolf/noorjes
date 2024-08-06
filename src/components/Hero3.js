@@ -12,7 +12,7 @@ const Hero3 = () => {
           <p className={`${styles.heroHeadText} capitalize`}>Introducing<span className='text-[#3AB7B3]'> NoorJes</span> - your favorite fragrance!</p>
           <p className={`${styles.subHeading}`}>Explore the best perfume in Dubai that perfectly complements your unique style. Your journey to a refreshing day begins here with our exclusive Dubai perfume brands. Buy best perfume online UAE.</p>
         </div>
-        <img src={video} alt="phone" className='w-full md:w-full' />
+        <img src={video} alt="Perfume online UAE" className='w-full md:w-full' />
       </div>
     </div>
   )
