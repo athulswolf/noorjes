@@ -30,7 +30,7 @@ const cardDetails = [{
 const card = (title, description, icon, key) => {
   return (
     <div className='flex flex-col max-w-xl text-left gap-1 md:gap-2' key={key}>
-      <img src={icon} alt="icon" className='w-10 h-10 md:w-16 md:h-16' />
+      <img src={icon} alt="Buy best perfume online UAE" className='w-10 h-10 md:w-16 md:h-16' />
       <p className={`${styles.lightHeading}`}>{title}</p>
       <p className={`${styles.subHeading}`}>{description}</p>
     </div>
