@@ -10,7 +10,7 @@ const Hero9 = () => {
       <div className='flex md:flex-1 flex-col justify-center items-center gap-4 py-4'>
         <div className='md:max-w-lg flex flex-col gap-4'>
           <p className="text-[#151515] font-normal text-2xl md:text-5xl font-playfair">Step into confidence with NoorJes fragrances!</p>
-          <p className={`${styles.subHeading}`}>Explore the transformative allure of our unique scent, radiating confidence and beauty effortlessly!</p>
+          <p className={`${styles.subHeading}`}>Explore the transformative allure of our unique scent, radiating confidence and beauty effortlessly! Buy online now.</p>
           <div className='flex flex-row gap-4'>
             <a href='https://gazaal.com/products/noorjes-imagine' target='_blank' rel="noopener noreferrer" className='px-6 py-3 bg-[#3AB7B3] rounded-full flex flex-row gap-2 items-center'>
               <HiMiniShoppingBag className='w-6 h-6 text-white  ' />
