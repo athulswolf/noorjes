@@ -20,7 +20,7 @@ const Hero9 = () => {
         </div>
       </div>
       <div className='flex justify-center flex-1'>
-        <img src={bottle} alt='bottle' className='h-60 md:h-[450px] md:pt-10 -mt-16 md:-mt-32' />
+        <img src={bottle} alt='Buy Perfume Online in UAE' className='h-60 md:h-[450px] md:pt-10 -mt-16 md:-mt-32' />
       </div>
       <div className='absolute w-20 h-20 bg-white -top-2 opacity-30 -left-5 rounded-full'></div>
       <div className='absolute w-20 h-20 bg-white -bottom-10 opacity-30 left-[40%] rounded-full hidden md:flex'></div>
