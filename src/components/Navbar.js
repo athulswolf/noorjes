@@ -40,7 +40,7 @@ export const Navbar = () => {
             <div className="flex items-center justify-between px-6 md:px-36 py-5 md:py-7">
                 <div className="flex items-center gap-x-14">
                     <a href="/" aria-label="Home" className="block">
-                        <img src='./logo.svg' alt="logo" className="h-5 w-24 md:h-7 md:w-36" />
+                        <img src='./logo.svg' alt="Buy Perfume Online in UAE" className="h-5 w-24 md:h-7 md:w-36" />
                     </a>
                 </div>
                 <div className={`hidden text-black font-normal text-lg md:flex gap-16 ${toggleMenu ? 'hidden' : 'block'}`}>
@@ -64,7 +64,7 @@ export const Navbar = () => {
                     <div className='flex justify-between py-5'>
                         <div className="flex items-center gap-x-14">
                             <a href="/" aria-label="Home" className="block">
-                                <img src='./logo.svg' alt="logo" className="h-5 w-24 md:h-7 md:w-36" />
+                                <img src='./logo.svg' alt="Eau de Parfum Online UAE" className="h-5 w-24 md:h-7 md:w-36" />
                             </a>
                         </div>
                         <button className="close-button" onClick={() => setToggleMenu(false)}>
