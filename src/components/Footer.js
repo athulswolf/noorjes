@@ -47,10 +47,12 @@ const Footer = () => {
                             <a href='https://wa.link/96lo06'>
                                 <img src={whatsapp} alt="whatsapp" className='w-8 h-8 md:w-10 md:h-10' />
                             </a>
-                            <a href='https://www.instagram.com/noorjesperfumes?igsh=MXJ3dGhpMDEzbnhqZw=='>
+                            <a href='https://www.instagram.com/gazaalperfumes/'>
                                 <img src={instagram} alt="facebook" className='w-8 h-8 md:w-10 md:h-10' />
                             </a>
-                            {/* <img src={facebook} alt="instagram" className='w-8 h-8 md:w-10 md:h-10' /> */}
+                                <a href='https://www.facebook.com/profile.php?id=61563772679058'>
+                                <img src={facebook} alt="instagram" className='w-8 h-8 md:w-10 md:h-10'/>
+                            </a>
                             {/* <img src={linkedin} alt="linkedin" className='w-8 h-8 md:w-10 md:h-10' /> */}
                         </div>
                     </div>
