@@ -26,7 +26,7 @@ const cardDetails = [
   {
     id: 5,
     question: 'Where Can I Find the Best Perfume Online in UAE?',
-    answer: 'NoorJes offers an outstanding collection of the best perfumes online in UAE, allowing you to shop from the comfort of your home.',
+    answer: 'NoorJes offers an outstanding collection of the best perfume for women in UAE, allowing you to shop from the comfort of your home.',
   },
 ];
 
