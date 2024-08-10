@@ -14,7 +14,7 @@ const Hero6 = () => {
             <div className='flex md:flex-1 h-full flex-col my-auto items-center md:items-start gap-4'>
                 <div className='md:max-w-lg flex flex-col gap-2 md:gap-4 text-left'>
                     <p className={`${styles.heroHeadText}`}>Why choose us?</p>
-                    <p className={`${styles.subHeading}`}>Elevate your senses with NoorJes Imagine Perfume, Best perfume for women in Dubai. Discover how our commitment to premium quality, eco-conscious choices, and globally inspired scents offers a new level of perfume in Dubai. Buy best perfume online UAE.</p>
+                    <p className={`${styles.subHeading}`}>Elevate your senses with NoorJes Imagine Perfume, Best Eau de perfum in Dubai. Discover how our commitment to premium quality, eco-conscious choices, and globally inspired scents offers a new level of perfume in Dubai. Buy best perfume online UAE.</p>
                     <div className='flex flex-row gap-2'>
                         <FaCircleCheck className='w-6 h-6 text-[#3AB7B3]' />
                         <p className={`${styles.subHeading}`}>Unique Blends: Artfully curated, setting us apart.</p>
