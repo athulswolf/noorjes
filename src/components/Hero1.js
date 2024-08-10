@@ -11,7 +11,7 @@ const Hero1 = () => {
       <div className='flex md:w-1/2 h-full flex-col md:ml-auto md:justify-center mt-6 md:mt-0'>
         <div className='w-full text-center md:text-left gap-4 md:gap-5 flex flex-col'>
           <h1 className={styles.heading}>Buy best perfume online UAE.</h1>
-          <p className={styles.subHeading}>Discover a realm where scents transcend mere accessories and express your unique essence. Each fragrance is crafted with the finest ingredients, catering to every mood and desire. Buy best perfume online UAE.</p>
+          <p className={styles.subHeading}>Discover a realm where scents transcend mere accessories and express your unique essence. Each fragrance is crafted with the finest ingredients, catering to every mood and desire. Best perfume for women.</p>
           <div className="text-white font-semibold text-lg flex gap-16 justify-center md:justify-start">
             <a href='https://gazaal.com/products/noorjes-imagine' target='_blank' rel="noopener noreferrer" className='px-6 py-3 bg-[#3AB7B3] rounded-full flex flex-row gap-2 items-center'>
               <HiMiniShoppingBag className='w-6 h-6' />
