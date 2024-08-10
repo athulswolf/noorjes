@@ -8,19 +8,19 @@ import picture4 from '../assets/picture4.png'
 
 
 const cardDetails = [{
-  title: '',
-  description: '',
+  title: 'Alexis',
+  description: 'NoorJes Imagine Perfume enhances my day with its magical scent. As a top Dubai perfume brand, it offers divine aromas that evolve beautifully. Every spray adds a little luxury to my moments. The Best perfume for women',
   video: true,
   icon: picture1
 
 }, {
-  title: '',
-  description: '',
+  title: 'geet',
+  description: 'NoorJes The Best perfume for women in UAE. Its divine scent from the best Dubai perfume brands evolves beautifully. Each spray adds a luxurious touch, brightening my day. Buy best perfume online UAE.',
   video: true,
   icon: picture2
 }, {
   title: 'Sarah',
-  description: 'NoorJes Imagine Perfume adds magic to my day. The best perfume from Dubai offers divine scents that evolve beautifully. Every spray feels like a personal touch, a little luxury that brightens my moments. Buy best perfume online UAE.',
+  description: 'NoorJes Imagine Perfume adds magic to my day. Best perfume for women in Dubai offers divine scents that evolve beautifully. Every spray feels like a personal touch, a little luxury that brightens my moments. Buy best perfume online UAE.',
   video: false,
   icon: picture3
 }
